@@ -16,6 +16,7 @@ MySQL
 HTML, CSS, JavaScript
 
 ER DIAGRAM:
+
 Students
 ---------
 id (PK)
