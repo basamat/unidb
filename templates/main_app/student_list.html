@@ -1,0 +1,24 @@
+{% extends 'main_app/base.html' %}
+
+{% block content %}
+    <h2>Students List</h2>
+    <a href="{% url 'student_create' %}">Add New Student</a>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Birth Date</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Email</th>
+                <th>Enrollment Date</th>
+                <th>Faculty</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="student-list">
+            <!-- Динамическое содержание будет загружено сюда -->
+        </tbody>
+    </table>
+{% endblock %}
