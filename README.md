@@ -15,6 +15,8 @@ Django 3.x
 MySQL 
 HTML, CSS, JavaScript
 
+![4](https://github.com/user-attachments/assets/99d94186-4cdc-44b4-8f6e-4b6b21016bfc)
+
 ER DIAGRAM:
 
 Students
@@ -42,6 +44,7 @@ name
 description
 credits
 faculty_id (FK)
+
 
 Schedules
 ---------
