@@ -14,3 +14,48 @@ Python 3.x
 Django 3.x
 MySQL 
 HTML, CSS, JavaScript
+
+ER DIAGRAM:
+Students
+---------
+id (PK)
+first_name
+last_name
+birth_date
+address
+phone
+email
+enrollment_date
+faculty_id (FK)
+
+Faculties
+---------
+id (PK)
+name
+department
+
+Courses
+---------
+id (PK)
+name
+description
+credits
+faculty_id (FK)
+
+Schedules
+---------
+id (PK)
+course_id (FK)
+faculty_id (FK)
+day
+time
+location
+
+Grades
+---------
+id (PK)
+student_id (FK)
+course_id (FK)
+grade
+date
+
